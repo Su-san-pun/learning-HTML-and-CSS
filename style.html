@@ -2,16 +2,27 @@
 <html lang="en"><!-- The language of the document is English -->
     <head>
         <title>Style</title>
+         <!-- specifity 1 inline 2 id 3 class 4 type -->
         <style>
             h1{
-                color: blue;
-                text-align: center;
+                color: red;
+            }
+            .baz {
+                color:blue;
+            }
+
+            #poo {
+                color:green;
             }
         </style>
     </head>
     <body><!-- The body of the document -->
-
-        <h1>hello, world!</h1>
+        
+        <h1 class="baz">hello, world!</h1>
+        <h1 class="baz">This is second heading!</h1>
+        <h1>Welcome to my web page!</h1>
+        <br>
+        <h1 id="poo">hello, world!</h1>
         <h1>This is second heading!</h1>
         <h1>Welcome to my web page!</h1>
     </body>
